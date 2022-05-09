@@ -1,3 +1,7 @@
 export default function Root(props) {
-  return <section>{props.name} is mounted!</section>;
+  return (
+    <main className="container">
+      <h1>Search</h1>
+    </main>
+  );
 }
